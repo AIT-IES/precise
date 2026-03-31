@@ -4,7 +4,7 @@
 
 The *PreCISE* approach – an approach for <u>pre</u>paring <u>c</u>oncise
 <u>i</u>nformation for <u>s</u>imulation <u>e</u>xperiments – is one of
-the main results of the [SmILES project](https://cordis.europa.eu/project/id/730936).
+the main results of the [SmILES] project.
 Its main purpose is to
 facilitate the collaboration among experts using different toolchains
 and modelling paradigms. The intention behind the PreCISE approach is
@@ -348,7 +348,7 @@ planned) systems is given.
 
 #### System Configuration
 
-A **system configuration **(SC) is a detailed, technical description of
+A **system configuration** (SC) is a detailed, technical description of
 an energy system (a list of energy
 domains, system components and their interrelations such as connectivity
 and hierarchy) and the
@@ -422,7 +422,7 @@ attached data)</p></li>
 
 #### Control Function
 
-A **control function **(CF)**,** in the context of SmILES, is a
+A **control function** (CF), in the context of the PreCISE approach, is a
 description of an embedded control system (or an
 aspect thereof) which, together with the inherent physical properties of
 the system itself, defines the
@@ -481,8 +481,8 @@ variables or parameters that impact the specific behaviour of a system
 and its components. Input data may be both static, e.g., by specifying
 operating modes for a component, or dynamic, such as time series data.
 
-The PreCISE approach provides a data format that was developed based on
-the data requirements encountered in the SmILES project. The format
+The PreCISE approach provides a [common data format](COMMON-DATA-FORMAT.md) that was developed based on
+the data requirements encountered in the [SmILES] project. The format
 requires data and metadata to be in packaged together in a ZIP archive
 file. The ZIP archive file contains an XML file that provides
 information and metadata about all the packaged data. Data – tabular as
@@ -564,7 +564,7 @@ harmonization):</p>
 
 A **key performance indicator** (KPI) is a parameter that provides a
 measure of performance for a certain system or component. Within the
-context of SmILES, the main focus is on KPIs that are calculated from
+context of PreCISE, the main focus is on KPIs that are calculated from
 simulation results. [Table 8](#_Ref1749660) gives a short overview of
 the categories defined in the KPI description template.
 
@@ -797,7 +797,7 @@ sets.</p></figcaption>
 
 The toolchains are shortly described in the following:
 
-- *Partner 1 Toolchain mapping***:** Partner 1 uses the *mosaik* \[2\] co-simulation
+- *Partner 1 Toolchain mapping*: Partner 1 uses the *mosaik* \[2\] co-simulation
   framework to couple sub-models implemented in separate simulators.
   Each simulator (~class) is instantiated into entities (~objects),
   which are subsequently connected in a scenario. When writing these
@@ -1007,3 +1007,9 @@ vol. 91, no. 1, pp. 127-144, 2003.</td>
 </tr>
 </tbody>
 </table>
+
+## Funding acknowledgement
+
+<img alt="European Flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/330px-Flag_of_Europe.svg.png" align="left" style="margin-right: 10px" height="57"/> This development has been supported by the [SmILES] project of the European Union’s research and innovation programme Horizon 2020 under the grant agreement ID 730936.
+
+[SmILES]: https://cordis.europa.eu/project/id/730936
