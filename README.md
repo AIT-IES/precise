@@ -947,6 +947,10 @@ unambiguous implementation in two different toolchains can be time
 consuming. Thus, describing systems using the PreCISE approach should be
 seen as a compromise between feasibility and accuracy.
 
+## Example
+
+An example providing PreCISE documentation and reference implementations for a multi-energy network benchmark is provided [here](https://github.com/ERIGrid2/benchmark-model-multi-energy-networks).
+
 ## References
 
 <table>
